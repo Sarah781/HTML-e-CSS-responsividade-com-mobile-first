@@ -21,7 +21,7 @@
 }
 
 .container__imagem{
-    padding: 1em;
+    padding: 0.6em;
 }
 
 .lista-menu{
@@ -35,15 +35,15 @@
     display: block;
 }
 
-.lista-menu__titulo{
-    padding: 1em;
-    background-color: var(--branco);
-    color:var(--laranja);
-}
-
+.lista-menu__titulo,
 .lista-menu__item{
     padding: 1em;
     background-color: var(--branco);
+}
+
+.lista-menu__titulo{
+    color:var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu__link{
@@ -53,3 +53,8 @@
     background-clip: text;
     text-transform: uppercase;
 }
+
+.container__botao{
+    display: none;
+}
+
